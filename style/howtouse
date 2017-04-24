@@ -1,1 +1,1 @@
-tylus -w style.styl -o style.css
+stylus -w style.styl -o style.css
