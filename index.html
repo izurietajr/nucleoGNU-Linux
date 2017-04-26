@@ -24,7 +24,7 @@
                         <div id="title">
                             <div class="msj">
                                 <div class="inmsj">
-                                    <h1>NÚCLEO GNU/LINUX</h1>
+                                    <h1 id="titlenuc">NÚCLEO GNU/LINUX</h1>
                                     <h2>Nos gusta la libertad</h2>
                                 </div>
                             </div>
@@ -34,14 +34,14 @@
                         <img src="img/logo.png" id="logo" class="img-responsive">
                     </div>
                     <div class="col-md-12 nopadding">
-                        <div class="msj">
+                        <div class="msj1">
                             <div class="inmsj">
                                 <!--h1>Únete a nosotros</h1-->
                                 <ul class="list-inline">
-                                    <li><a href="#content1">Conócenos</a></li>
-                                    <li><a href="#blog">Blog</a></li>
-                                    <li><a href="#wiki">Wiki</a></li>
-                                    <!--li><a href="#flisol">Flisol 2017</a></li-->
+                                    <li><a href="#content1">CONÓCENOS</a></li>
+                                    <li><a href="#blog">BLOG</a></li>
+                                    <li><a href="#wiki">WIKI</a></li>
+                                    <li><a href="#telegram">TELEGRAM</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -55,21 +55,21 @@
         <div class="row"><div class="col-md-12 spacer-short"></div></div>
         <div class="row">
             
-            <div class="col-md-10 col-md-offset-1 nopadding" id="content1">
+            <div class="col-md-10 col-md-offset-1 nopadding section" id="content1">
                 <!--div class="nopadding" id="content1"-->
                     <!--div class="col-md-12 spacer-long"></div-->
                     <div class="col-md-12 nopadding">
                         <div class="msj">
                             <div class="inmsj">
-                                <h1>Conócenos</h1>
+                                <h1>CONÓCENOS</h1>
                                 <p class="texto">Somos estudiantes de Informática de la Universidad Mayor de San Andrés.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-md-offset-1 col-xs-12">
+                    <div class="col-md-5 col-md-offset-1 col-xs-12 padding">
                         <img src="img/lab.jpg" class="img-responsive padding">      
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 padding">
                         <h3 class="padding">
                             Aprendemos y enseñamos tecnologías libres, somos una comunidad de estudio
                         </h3>
@@ -79,6 +79,22 @@
                         <img src="img/debian.svg" class="img-responsive distro padding">
                     </div>
                     <!--div id="content3" class="content nopadding"></div-->
+
+
+
+                    
+                    <div class="col-md-5 col-md-offset-1 padding">
+                        <h3 class="padding">
+                            Nos reunimos todos los viernes de 16:00 a 18:00 en el laboratorio de base de datos de la carrera de informática
+                        </h3>
+                        <!--h3 class="padding">
+                            Nos gusta colaborar y contribuir con proyectos open source
+                        </h3-->
+                        <img src="img/arch.png" class="img-responsive distro padding">
+                    </div>
+                    <div class="col-md-5 col-xs-12 padding">
+                        <img src="img/lab.jpg" class="img-responsive padding">      
+                    </div>
                 <!--/div-->
             </div> 
         </div>
@@ -93,28 +109,43 @@
             </div>
         </div-->
         <div class="row">
-            <div class="col-md-10 col-md-offset-1 nopadding">
-                <div class="content nopadding" id="blog">
-                    <div class="col-md-12 spacer-long"></div>
+            <div class="col-md-10 col-md-offset-1 nopadding" id="distroslogo">
+                <div class="center padding">
+                    <ul class="list-inline">
+                        <li><img class="distrologo" src="img/arch.png"></li>
+                        <li><img class="distrologo" src="img/Fedora_logo.svg"></li>
+                        <li><img class="distrologo" src="img/debian.svg"></li>
+                        <li><img class="distrologo" src="img/ubuntu.png"></li>
+                        <li><img class="distrologo" src="img/elementary.png"></li>
+                        <li><img class="distrologo" src="img/suse.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 nopadding section">
+                <div class="nopadding" id="blog">
+                    <!--div class="col-md-12 spacer-long"></div-->
                     <div class="col-md-12 nopadding">
                         <div class="msj">
                             <h1 class="inmsj">Nuestro Blog</h1>
                         </div>
                     </div>
-                    <div class="col-md-6 col-md-offset-1 col-xs-12">
-                        <img src="img/fondolinux.jpg" class="img-responsive padding">      
+                    <div class="col-md-10 col-md-offset-1 col-xs-12">
+                        <img src="img/blog.jpg" class="img-responsive padding">      
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-10 col-md-offset-1">
                         <h3 class="padding">
                             Visítanos y revisa nuestras publicaciones!
                         </h3>
                         <h3>
-                            <a href="http://blog.nucleognulinux.com">Visita nuestro blog aqui!</a>
+                            <a href="http://blog.nucleognulinux.com" class="link">blog del núcleo GNU/Linux</a>
                         </h3>
                         <!--h3 class="padding">
                             Participamos de iniciativas de código abierto y colaboramos en equipo
                         </h3-->
-                        <img src="img/arch.png" class="img-responsive distro">
+                        <img src="img/arch.png" class="img-responsive distro padding">
                     </div>
                 </div>
             </div>
@@ -122,7 +153,7 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1 nopadding">
                 <div class="content nopadding" id="wiki">
-                    <div class="col-md-12 spacer-long"></div>
+                    <!--div class="col-md-12 spacer-long"></div-->
                     <div class="col-md-12 nopadding">                   
                         <div class="msj">
                             <h1 class="inmsj">Nuestra Wiki</h1>
@@ -146,27 +177,30 @@
                 </div>
             </div>
         </div>
-        <!--div class="row">
-            <div class="col-md-12">
-                <div class="content nopadding" id="flisol">
-                    <div class="col-md-12 spacer-long"></div>
-                    <div class="col-md-12 nopadding">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 nopadding">
+                <div class="content nopadding" id="telegram">
+                    <!--div class="col-md-12 spacer-long"></div-->
+                    <div class="col-md-12 nopadding">                   
                         <div class="msj">
-                            <h1 class="inmsj">Flisol 2017</h1>
+                            <h1 class="inmsj">Encuéntranos en Telegram</h1>
                         </div>
                     </div>
-                    <div class="col-md-6 col-md-offset-1 col-xs-12 padding">
-                        <img src="img/bannerflisol.jpg" class="img-responsive"> 
+                    <div class="col-md-6 col-md-offset-1 col-xs-12">
+                        <img src="img/azulblanco.png" class="img-responsive padding">      
                     </div>
                     <div class="col-md-5">
                         <h3 class="padding">
-                            Ven y participa en las charlas y talleres
+                            Mantente en contacto con nosotros
                         </h3>
-                        <img src="img/ubuntu.png" class="img-responsive distro">
+                        <h3>
+                            <a href="http://t.me/nucleognulinux">Presiona aqui!</a>
+                        </h3>
+                        <img src="img/debian.svg" class="img-responsive distro padding">
                     </div>
                 </div>
             </div>
-        </div-->
+        </div>
     </div>
 </body>
 </html>
